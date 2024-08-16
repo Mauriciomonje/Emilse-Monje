@@ -1,0 +1,122 @@
+.logo {
+    max-width: 10rem;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    background-image: url('/assets/img/header.jpg');
+    height: 730px;
+    position: relative;
+}
+
+.bg-experiencia {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    background-image: url('/assets/img/fondo\ abstracto.jpg');
+    position: relative;
+}
+.bg-micarrera{
+    padding-top: 40px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    background-image: url('/assets/img/laptop.jpg');
+    position: relative;
+    
+}
+
+.bg-transparencia {
+    background-color: transparent !important;
+
+}
+
+.bg-tarjeta {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0.5rem;
+}
+
+.titulo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+
+}
+
+.titulo-experiencia {
+    text-shadow: 1px 1px 4px #ffffff1e;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgb(231, 182, 216), rgb(175, 126, 221));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.titulo-micarrera{
+    
+    font-weight: bolder;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgb(95, 97, 170), rgb(112, 88, 134));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.separador{
+    height: 50px;
+}
+#whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1000;
+  }
+.fade-in {
+    animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
